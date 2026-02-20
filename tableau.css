@@ -1,0 +1,61 @@
+/* Style général */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Tableau */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+
+/* Titre du tableau */
+caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Cellules */
+th, td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+/* En-tête et pied */
+thead th,
+tfoot th {
+    background-color: #e0e0e0;
+}
+
+/* Corps du tableau */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Cellules fusionnées */
+td[colspan],
+td[rowspan] {
+    font-weight: bold;
+}
+
+/* Texte vertical (Marché Tokpa) */
+td[style*="writing-mode"] {
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
+
+/* Cellule diagonale IAOC */
+.diagonale {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Texte IAOC */
+.IAOC {
+    font-weight: bold;
+}

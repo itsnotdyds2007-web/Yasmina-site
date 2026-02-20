@@ -1,0 +1,90 @@
+/* Style général */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Formulaire centré */
+form {
+    width: 650px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Groupes */
+fieldset {
+    border: 1px solid #cbd6e2;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #2c6eb5;
+}
+
+/* Paragraphes */
+p {
+    margin-bottom: 12px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Champs de saisie */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b0c4de;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Radio et checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+/* Zone de texte */
+textarea {
+    resize: vertical;
+}
+
+/* Boutons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #2c6eb5;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Effet au survol */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #1f4f8a;
+}
+
+/* Alignement boutons */
+p[style*="text-align:center"] {
+    margin-top: 20px;
+}
